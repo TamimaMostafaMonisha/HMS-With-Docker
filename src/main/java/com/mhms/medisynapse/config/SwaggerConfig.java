@@ -20,7 +20,8 @@ public class SwaggerConfig {
         devServer.setDescription("Server URL in Development environment");
 
         Server prodServer = new Server();
-        prodServer.setUrl("https://api.medisynapse.com");
+//        prodServer.setUrl("https://api.medisynapse.com");
+        prodServer.setUrl("https://hms-with-docker.onrender.com");
         prodServer.setDescription("Server URL in Production environment");
 
         Contact contact = new Contact();
